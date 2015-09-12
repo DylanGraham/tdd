@@ -8,4 +8,8 @@ class PracticeTest extends TestCase
 
         $this->assertContains('Troll', $names, "TROLL!");
     }
+
+    public function testTest()
+    {
+    }
 }
