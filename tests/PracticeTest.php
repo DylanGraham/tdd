@@ -11,5 +11,9 @@ class PracticeTest extends TestCase
 
     public function testTest()
     {
+        $actual = link_me_to('dogs/1', 'Show Dog');
+        $expect = "<a href='http://localhost/dogs/1'>Show Dog</a>";
+
+        $this->assertEquals($expect, $actual);
     }
 }
